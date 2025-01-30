@@ -130,6 +130,8 @@ class Astar():
         forward_path = {}
         cell = end
         backtrack_time = time.time()
+        self.grid[start] = 4 #Mark start
+        self.grid[end] = 4 #Mark en
 
         while cell != start:
             self.optimal_steps.append(len(forward_path)) #Store optimal path step count
