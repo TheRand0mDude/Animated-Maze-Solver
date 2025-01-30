@@ -26,8 +26,10 @@ perform the repeated selection of minimum (estimated) cost nodes to expand.
 
 Each iteration, The item with the lowest f(n) in the open-set is removed, and the F,G values of its neighbors are updated.
 this is until a removed node is a goal node.
-        
-  
+
+
+Our maze is made of of a numpy 2D array that contains different numbers that represents walls, paths, ect.
+We display the maze using ```plt.imshow``` with the following colormap:  
 
         0 - blue - empty paths
         1 - purple - walls
@@ -37,10 +39,9 @@ this is until a removed node is a goal node.
 ![image](https://github.com/user-attachments/assets/0e459892-7278-489e-b1d1-b0fc0bb48c17)
 
 
-## how to install
+### how to install
 
-insert explanation to use -pip install matplotlib and numpy
+After you get the repository, make sure you have matplotlib installed.
+if not, write in terminal " ```--pip install matplotlib``` "
 
-### lessons learned:
 
-text here haha
