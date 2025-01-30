@@ -38,7 +38,7 @@ class Animation_Manager():
             self.axis[1].set_title("Steps vs Time ratio") 
             self.axis[1].set_ylabel("Steps")
             self.axis[1].set_xlabel("Time (seconds)")
-            self.fig.legend()
+            
 
             #Set limits
             self.axis[1].set_xlim(-0.001, max(times) * 1.1)  
